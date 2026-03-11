@@ -1,0 +1,112 @@
+/********************
+* RESET
+********************/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/********************
+* VARIABLES
+********************/
+
+:root {
+    /* Colours */
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+/********************
+* TYPOGRAPHY
+********************/
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.card-copy {
+    font-size: 0.9375rem;
+    color: var(--slate-500);
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.card-heading {
+    font-size: 1.375rem;
+    color: var(--slate-900);
+    line-height: 120%;
+    margin-bottom: 1rem;
+}
+
+/********************
+* BASE
+********************/
+
+.wrapper {
+    background-color: var(--slate-300);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    margin-block: auto;
+}
+
+/********************
+* CARD
+********************/
+
+.card {
+    width: 320px;
+    background-color: var(--white);
+    border-radius: 20px;
+    text-align: center;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+}
+
+.card-img-qr-code {
+    border-radius: 10px;
+}
+
+.card-text-area {
+    padding: 1rem 1rem 2.5rem;
+}
+
+/********************
+* FOOTER
+********************/
+
+.footer-main {
+    margin-bottom: 1rem;
+}
+
+.attribution {
+    font-size: 0.75rem;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
